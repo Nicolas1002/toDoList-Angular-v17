@@ -1,6 +1,6 @@
 import { Component, Injector, Input, computed, effect, inject, signal } from '@angular/core';
 import { Task } from 'src/app/models/task.model';
-import { CommonModule } from '@angular/common';
+
 import { FormControl, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Title } from '@angular/platform-browser';
 
@@ -9,7 +9,7 @@ import { Title } from '@angular/platform-browser';
   templateUrl: './home.component.html',
   standalone: true,
   styleUrls: ['./home.component.css'],
-  imports: [ReactiveFormsModule, CommonModule]
+  imports: [ReactiveFormsModule]
 
 })
 export class HomeComponent {
