@@ -9,7 +9,6 @@ import { LabsComponent } from './pages/labs/labs.component';
 @NgModule({
   declarations: [
     AppComponent,
-
     LabsComponent
   ],
   imports: [
